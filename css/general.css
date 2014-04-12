@@ -19,9 +19,89 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
 }
 
 img {
 	width: 100%;
     display: block;
+}
+
+.masthead {
+    background-color: #A9A9F5;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.logo {
+    height: 4rem;
+    width: auto; 
+    margin: .25rem auto .25rem;
+    overflow:hidden;
+}
+
+.nav-top {
+ clear: both;   /* forces content to be placed after a float */ 
+}
+
+.nav-top ul {
+    margin: 0;
+    padding: 0;
+    background-color:#CECEF6;
+    text-align:center;
+}
+
+.nav-top li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    
+}
+
+.nav-top a, 
+.nav-top a:link,
+.nav-top a:visited {
+    display: inline-block;
+    margin: 0;
+    padding: 1.5rem 10% ; 
+    color: #614D37;
+    font-size: 1.25rem;
+    text-decoration:none;
+    font-family:"Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, sans-serif;
+    text-transform:uppercase;
+}
+
+.selected {
+    background-color: #A9A9F5;
+    color:#F2F5A9;
+}
+
+.billboard {
+    overflow: hidden;
+    background-image:url(../images/Diamonds.jpg);
+    background-color:white;
+    background-repeat:repeat;
+    background-position:center center;
+    background-size:30rem;
+    margin: 0 0 0; 
+}
+
+h1 {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    margin:1.5rem auto 1.5rem;
+    padding: .5rem 2%;
+    font-size: 3rem; 
+    letter-spacing:-.1rem;
+    text-align:center;
+    line-height:3rem;
+    color:#F2F5A9;
+    text-shadow: 4px 4px black;
+    background-color: rgba(213, 195, 237, .4);
+} 
+
+.paraone {
+    font-size:1.25rem;
+    margin: 1rem 2% 1rem;
+    line-height:2rem;
 }
