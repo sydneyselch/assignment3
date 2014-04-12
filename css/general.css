@@ -105,3 +105,13 @@ h1 {
     margin: 1rem 2% 1rem;
     line-height:2rem;
 }
+
+h2 {
+    text-align:center;
+    color:#614D37;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size:2rem;
+    font-weight:bold;
+    letter-spacing:-.1rem;
+     
+}
