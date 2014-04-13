@@ -27,6 +27,15 @@ img {
     display: block;
 }
 
+body {
+    margin: 0;
+    padding:0;
+}
+
+article{
+    margin: 1rem 5%;
+}
+
 .masthead {
     background-color: #A9A9F5;
     margin: 0;
@@ -115,3 +124,35 @@ h2 {
     letter-spacing:-.1rem;
      
 }
+
+.nav-bottom ul {
+    list-style-type:none; 
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bottom a, 
+.nav-bottom a:link,
+.nav-bottom a:visited {
+    color: white;
+    font-size: .875rem;
+    line-height:1.5rem; 
+    text-decoration:none;
+}
+
+footer {
+    background-color:#A9A9F5; 
+    overflow: hidden; 
+}
+
+footer p {
+    margin: 4rem 5% 1rem; 
+    color: #F2F5A9;
+    font-size: .75rem; 
+} 
+
+footer a {
+    color: #F2F5A9; 
+    margin: 0 0 3rem;
+    text-decoration:none;
+} 
