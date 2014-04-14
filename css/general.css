@@ -32,6 +32,12 @@ body {
     padding:0;
 }
 
+p {
+    font-size:1rem;
+    line-height:1.5rem;
+    margin:1rem; 
+}
+
 article{
     margin: 1rem 5%;
 }
@@ -108,9 +114,27 @@ h1 {
     text-shadow: 4px 4px black;
     background-color: rgba(213, 195, 237, .4);
 } 
+blockquote {
+    margin: 0;
+    padding: 0 0 0 15%;
+    overflow:hidden;
+}
+
+blockquote p {
+    font-size:1.75rem;
+    line-height:2rem;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+blockquote span {
+    font-weight:bold;
+    color:#A9A9F5;
+    float: right;
+    margin: 1.5rem 0;
+}
 
 .paraone {
-    font-size:1.25rem;
+    font-size:1.5rem;
     margin: 1rem 2% 1rem;
     line-height:2rem;
 }
@@ -141,12 +165,13 @@ h2 {
 }
 
 footer {
+    margin:0;
     background-color:#A9A9F5; 
     overflow: hidden; 
 }
 
 footer p {
-    margin: 4rem 5% 1rem; 
+    margin: 1rem 5% 4rem; 
     color: #F2F5A9;
     font-size: .75rem; 
 } 
@@ -155,4 +180,18 @@ footer a {
     color: #F2F5A9; 
     margin: 0 0 3rem;
     text-decoration:none;
+    overflow:hidden;
 } 
+
+.latestarrival {
+    display: inline-block;
+    margin: 0;
+    padding: 1.5rem 10% ; 
+}
+
+.latestarrival li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    
+}
