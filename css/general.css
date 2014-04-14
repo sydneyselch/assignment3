@@ -68,7 +68,7 @@ article{
 }
 
 .nav-top li {
-    margin: 0;
+    margin: 1rem 0 5rem;
     padding: 0;
     display: inline;
     
@@ -186,12 +186,42 @@ footer a {
 .latestarrival {
     display: inline-block;
     margin: 0;
-    padding: 1.5rem 10% ; 
+    padding: 1.5rem 10%;
+    text-decoration:none;
+    list-style-type:none;
 }
 
-.latestarrival li {
+.latestarrival ul li {
     margin: 0;
     padding: 0;
     display: inline;
     
 }
+
+.footerabove {
+    background-color:#CECEF6
+}
+
+.social {
+    margin: 0;
+    padding: 0;
+}
+
+.social ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
+
+.social ul li { 
+    display: inline;
+}   
+
+.social ul li a{ 
+    text-decoration:none
+        padding:.2rem 1rem;
+    background-color:#036;
+    
+}
+    

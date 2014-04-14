@@ -2,15 +2,15 @@
 <!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 334.317 78.855" enable-background="new 0 0 334.317 78.855" xml:space="preserve">
-<rect x="0" y="17.72" fill="none" width="334.317" height="54.162"/>
-<text transform="matrix(1 0 0 1 4.759598e-05 61.4884)" font-family="'PlayfairDisplaySC-Regular'" font-size="72" letter-spacing="-4">GLISTEN</text>
-<polygon points="314.916,4.151 320.482,8.051 312.723,13.201 "/>
-<polygon points="283.466,2.294 277.9,6.195 285.659,11.344 "/>
-<polygon fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" points="298.121,8.676 322.4,25.888 298.121,61.228 
-	272.771,25.68 "/>
-<polygon points="296.902,27.8 298.209,57.361 278.829,27.8 "/>
-<polygon points="297.28,25.68 297.28,13.201 278.829,25.68 "/>
-<polygon points="298.791,27.8 298.209,57.361 316.865,27.8 "/>
-<polygon points="298.222,25.888 298.222,13.408 316.674,25.888 "/>
+	 viewBox="0 0 332.776 76.675" enable-background="new 0 0 332.776 76.675" xml:space="preserve">
+<rect x="0" y="17.952" fill="none" width="285.328" height="54.808"/>
+<text transform="matrix(1 0 0 1 -1.119404e-04 59.8961)" font-family="'PlayfairDisplaySC-Bold'" font-size="69" letter-spacing="-2">GLISTEN</text>
+<polygon fill="none" stroke="#231F20" stroke-width="3.6043" stroke-miterlimit="10" points="309.342,2.535 330.491,23.458 
+	309.342,57.795 287.966,23.692 "/>
+<polygon points="310.077,11.426 310.077,23.232 323.89,23.232 "/>
+<polyline points="294.636,23.232 308.449,11.426 308.449,23.232 "/>
+<polygon points="323.668,25.035 310.077,25.035 310.077,46.761 "/>
+<polyline points="308.449,46.761 294.858,25.035 308.449,25.035 "/>
+<polygon points="325.055,0.408 329.845,3.245 323.668,8.213 "/>
+<polygon points="294.063,0.408 289.273,3.245 295.45,8.213 "/>
 </svg>
