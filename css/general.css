@@ -99,7 +99,7 @@ article{
     background-repeat:repeat;
     background-position:center center;
     background-size:30rem;
-    margin: 0 0 0; 
+    margin: 0; 
 }
 
 h1 {
@@ -114,9 +114,10 @@ h1 {
     text-shadow: 4px 4px black;
     background-color: rgba(213, 195, 237, .4);
 } 
+
 blockquote {
     margin: 0;
-    padding: 0 0 0 15%;
+    padding: 0 0 0 10%;
     overflow:hidden;
 }
 
@@ -134,7 +135,7 @@ blockquote span {
 }
 
 .paraone {
-    font-size:1.5rem;
+    font-size:2rem;
     margin: 1rem 2% 1rem;
     line-height:2rem;
 }
@@ -160,8 +161,78 @@ h2 {
 .nav-bottom a:visited {
     color: white;
     font-size: .875rem;
-    line-height:1.5rem; 
+    line-height:1rem; 
     text-decoration:none;
+}
+
+.latestarrival {
+    display: inline-block;
+    margin: 0;
+    padding: 1rem 10% 1rem;
+    text-decoration:none;
+    list-style-type:none;
+}
+
+.latestarrival ul li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    
+}
+
+.billboard2 {
+    overflow: hidden;
+    background-image:url(/images/Diamonds.jpg);
+    background-color:black;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:40rem
+}
+
+.footerabove {
+    background-color:#CECEF6;
+    overflow:hidden;
+}
+
+.social {
+    overflow:  hidden;
+    background-color: #CECEF6; /* Visual Aid */
+}
+
+.social figure {
+    float: left;
+    width: 15%; /* First and second buckets. 45% x 2 = 90% */ 
+    margin: 1rem 10% 1.5rem 1rem; /* First and second bucket right margins. 10% x 2 = 20%  */
+    padding: 0;
+}
+.social figure:nth-child(even) {/* every even numbered <figure> has no margin */
+    margin: 1rem 0 1rem ;     
+}
+
+
+.bucket1 {
+    overflow:  hidden;
+    background-color: red; /* Visual Aid */
+}
+
+.bucket1 figure {
+    float: left;
+    width: 25%; /* First and second buckets. 45% x 2 = 90% */ 
+    margin: 0 10% 1.5rem 0; /* First and second bucket right margins. 10% x 2 = 20%  */
+    padding: 0;
+}
+
+/* THE PROBLEM: The sum total of figure + margin + figure must equal 100%. But we are currently over by 10% because all figures have right margin (figure + margin + figure + margin = 110%). We therefore need to use an "nth-child" to target every "even" (2nd, 4th etc.) figure to have no right margin. */
+
+.bucket1 figure:nth-child(even) {/* every even numbered <figure> has no margin */
+    margin: 0;     
+}
+
+.bucket1 figcaption {
+    text-align:center;
+    list-style-type:none;
+    text-decoration: none;/* Visual Aid */
+    color: yellow;
 }
 
 footer {
@@ -182,46 +253,3 @@ footer a {
     text-decoration:none;
     overflow:hidden;
 } 
-
-.latestarrival {
-    display: inline-block;
-    margin: 0;
-    padding: 1.5rem 10%;
-    text-decoration:none;
-    list-style-type:none;
-}
-
-.latestarrival ul li {
-    margin: 0;
-    padding: 0;
-    display: inline;
-    
-}
-
-.footerabove {
-    background-color:#CECEF6
-}
-
-.social {
-    margin: 0;
-    padding: 0;
-}
-
-.social ul {
-    list-style-type:none;
-    margin: 0;
-    padding: 0;
-    text-align:center;
-}
-
-.social ul li { 
-    display: inline;
-}   
-
-.social ul li a{ 
-    text-decoration:none
-        padding:.2rem 1rem;
-    background-color:#036;
-    
-}
-    
