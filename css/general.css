@@ -21,6 +21,7 @@ html {
     
     font-size: 100%;
     font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
+    font-size: 1rem;
 }
 
 
@@ -39,12 +40,12 @@ body {
 p {
     font-size:1rem;
     line-height:1.5rem;
-    margin:1rem; 
+    margin:0; 
 }
 
 
 article{
-    margin: 1rem 5%;
+    margin: 1rem 5% 1rem;
 }
 
 
@@ -92,6 +93,7 @@ article{
     text-decoration:none;
     font-family:"Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, sans-serif;
     text-transform:uppercase;
+    overflow:hidden;
 }
 
 
@@ -107,7 +109,7 @@ article{
     background-color:white;
     background-repeat:repeat;
     background-position:center center;
-    background-size:30rem;
+    background-size:40rem;
     margin: 0; 
 }
 
@@ -126,8 +128,8 @@ h1 {
 
 
 blockquote {
-    margin: 0;
-    padding: 0 0 0 10%;
+    margin: 1rem 0 1rem;
+    padding: 0 5% 0 5% ;
     overflow:hidden;
 }
 
@@ -145,10 +147,11 @@ blockquote span {
 }
 
 
-.paraone {
-    font-size:2rem;
+.paraone p {
+    font-size:1.5rem;
     margin: 1rem 2% 1rem;
-    line-height:2rem;
+    line-height:2.5rem;
+    font-weight: bold;
 }
 
 
@@ -162,23 +165,6 @@ h2 {
     letter-spacing:-.1rem;
      
 }
-
-
-.nav-bottom ul {
-    list-style-type:none; 
-    margin: 0;
-    padding: 0;
-}
-
-.nav-bottom a, 
-.nav-bottom a:link,
-.nav-bottom a:visited {
-    color: white;
-    font-size: .875rem;
-    line-height:1rem; 
-    text-decoration:none;
-}
-
 
 .billboard2 {
     overflow: hidden;
@@ -253,6 +239,20 @@ h2 {
     color: #614D37;
 }
 
+.nav-bottom ul {
+    list-style-type:none; 
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bottom a, 
+.nav-bottom a:link,
+.nav-bottom a:visited {
+    color: white;
+    font-size: .875rem;
+    line-height:1rem; 
+    text-decoration:none;
+}
 
 
 footer {
