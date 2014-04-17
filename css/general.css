@@ -62,32 +62,35 @@ article{
     width: auto; 
     margin: .25rem auto .25rem;
     overflow:hidden;
+        
 }
-
-
 .nav-top {
- clear: both;   /* forces content to be placed after a float */ 
+ clear: both;
+    margin: 0;
+    overflow: hidden;/* forces content to be placed after a float */ 
+    width: 100
 }
 
 .nav-top ul {
     margin: 0;
     padding: 0;
+    list-style: none; 
     background-color:#CECEF6;
     text-align:center;
+ 
 }
-
 .nav-top li {
-    margin: 1rem 0 5rem;
+    margin: 0 ;
     padding: 0;
     display: inline;
+    overflow: hidden;
     }
 
 .nav-top a, 
 .nav-top a:link,
 .nav-top a:visited {
     display: inline-block;
-    margin: 1rem 10% 1rem;
-    padding: 1.5rem 5% 1.5rem; 
+    padding: 1.5rem 10%; 
     color: #614D37;
     font-size: 1.25rem;
     text-decoration:none;
@@ -96,10 +99,10 @@ article{
     overflow:hidden;
 }
 
-
 .selected {
     background-color: #A9A9F5;
     color:#F2F5A9;
+    overflow: hidden; 
 }
 
 
@@ -159,11 +162,10 @@ h2 {
     text-align:center;
     color:#614D37;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    font-size:2.5rem;
-    line-height:1rem;
+    font-size:2.25rem;
+    line-height:2.5rem;
     font-weight:bold;
-    letter-spacing:-.1rem;
-     
+    letter-spacing:-.1rem;  
 }
 
 .billboard2 {
@@ -192,28 +194,66 @@ h2 {
     margin: 0;     
 }
 
-
-.products {
-    overflow:  hidden;
+.bucket2 {
+    margin: 1.5rem 0 1.5rem;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
 }
 
-.products figure {
+.bucket2 li {
     float: left;
-    width: 45%; /* First and second buckets. 45% x 2 = 90% */ 
-    margin: 0 10% 1rem 0; /* First and second bucket right margins. 10% x 2 = 20%  */
+    width: 45%;
+    margin: 0 10% 1.5rem 0;
     padding: 0;
 }
 
-.products figure:nth-child(even) {/* every even numbered <figure> has no margin */
-    margin: 0;     
+.bucket2 li:nth-child(even) {
+    margin: 0;
 }
 
-.products figcaption {
+.bucket2 a {
+    display: block;
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    list-style-type: none;
+    text-decoration: none; 
+ font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-align: center;
+    color:#614D37;
+    margin: 1.5rem 0 0;
+    padding: 100% 0 0; /* height of image ÷ by width = % */
+}
+
+.one {
+    background-image: url(../images/blueheartring.jpg);  
+}
+
+.two {
+    background-image: url(../images/diamond%20necklace.jpg);
+}
+
+.three {
+    background-image: url(../images/green%20ring.jpg);
+}
+
+.four {
+    background-image: url(../images/bluenecklace.jpg);
+}
+
+.five {
+    background-image: url(../images/greennecklace.jpg);
+}
+.six {
+    background-image: url(../images/diamond%20necklace.jpg);
+}
+
+.bucket2 figcaption {
     text-align:center;/* Visual Aid */
     text-decoration:none;
     list-style-type: none;
 }
-
 
 
 .bucket1 {
@@ -223,13 +263,13 @@ h2 {
 
 .bucket1 figure {
     float: left;
-    width: 30%; /* First and second buckets. 45% x 2 = 90% */ 
-    margin: 0 5% 1.5rem 0; /* First and second bucket right margins. 10% x 2 = 20%  */
-    padding: 0;
+    width: 25%; /* First and second buckets. 45% x 2 = 90% */ 
+    margin: 0 8% 0 0; /* First and second bucket right margins. 10% x 2 = 20%  */
+    padding: 1rem 0;
 }
 
 .bucket1 figure:nth-child(3) {/* every even numbered <figure> has no margin */
-    margin: 0;     
+    margin-right: 0;  
 }
 
 .bucket1 figcaption {
@@ -252,25 +292,29 @@ h2 {
     font-size: .875rem;
     line-height:1rem; 
     text-decoration:none;
+    list-style-type: none; 
 }
 
-
 footer {
-    margin:0 0 3rem;
+    margin:0 0;
     background-color:#A9A9F5; 
     overflow: hidden; 
     height:100%;
 }
 
 footer p {
-    margin: 1rem 5% 4rem; 
+    margin: 1.5rem 5% 6rem; 
     color: #F2F5A9;
     font-size: .75rem; 
+    line-height: 1.5rem;
 } 
 
 footer a {
     color: #F2F5A9; 
-    margin: 0 0 3rem;
+    margin: 0 0 ;
+    padding: 1.5rem; 
     text-decoration:none;
     overflow:hidden;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+   
 } 
