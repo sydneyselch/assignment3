@@ -73,7 +73,7 @@ article{
  clear: both;
     margin: 0;
     overflow: hidden;/* forces content to be placed after a float */ 
-    width: 100;
+    width: 100%;
 }
 
 .nav-top ul {
