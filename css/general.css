@@ -58,6 +58,7 @@ article{
     left: 0;
     align-content: center;
     overflow: hidden;
+    width: 100%;
     
 }
 
@@ -111,6 +112,9 @@ article{
     overflow: hidden; 
 }
 
+.spacer {
+    padding: 4.5rem 0 0 0;
+}
 
 .billboard {
     overflow: hidden;
