@@ -105,7 +105,7 @@ article{
 
 .selected {
     background-color: #9999FF;
-    }
+}
 
 .spacer {
     padding: 4.5rem 0 0 0;
@@ -126,24 +126,25 @@ h1 {
     font-family: 'Playfair Display SC', "Times New Roman", serif;
     margin:1.5rem auto 1.5rem;
     padding: .5rem 2%;
-    font-size: 3.25rem; 
+    font-size: 2.875rem; 
     text-align:center;
     line-height:3rem;
     color:#F2F5A9;
-    text-shadow: 2.5px 2.5px black;
+    letter-spacing: -.05rem;
+    text-shadow: 2.5px 2.5px rgba(0, 0, 0, .6);
     background-color: rgba(153, 153, 255, .3);
 } 
 
 
 blockquote {
-    margin: 1rem 0 1rem;
-    padding: 0 5% 0;
+    margin: 0 0 1rem;
+    padding: 0 10% 0;
     overflow:hidden;
 }
 
 blockquote p {
-    font-size:1.75rem;
-    line-height:2.5rem;
+    font-size:1.5rem;
+    line-height:2.25rem;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
 
@@ -151,7 +152,7 @@ blockquote span {
     font-weight:bold;
     color:#9999FF;
     float: right;
-    margin: 1.5rem 0;
+    margin: .25rem 0;
 }
 
 
@@ -299,6 +300,14 @@ figcaption {
     padding: 0;
 }
 
+.nav-bottom li {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    text-align: center; 
+    display: inline;
+}
+
 .nav-bottom a, 
 .nav-bottom a:link,
 .nav-bottom a:visited {
@@ -307,30 +316,13 @@ figcaption {
     line-height:1.5rem; 
     text-decoration:none;
     list-style-type: none; 
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-align: center;
 }
 
 footer {
-    margin:0;
+    margin: 0;
+    padding: 0 25% 12rem;
     background-color:#9999FF; 
-    overflow: hidden; 
-    height:100%;
+    overflow: hidden;
 }
-
-footer ul {
-    margin: 1rem 0 12rem; 
-    color: #F2F5A9;
-    font-size: .75rem; 
-    line-height: 1.5rem;
-    text-decoration: none;
-    list-style-type: none;
-} 
-
-    
-footer a {
-    color: #F2F5A9; 
-    margin: 0 0 ; 
-    text-decoration:none;
-    overflow:hidden;
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-   
-} 
