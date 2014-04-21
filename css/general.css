@@ -116,7 +116,7 @@ article{
 .billboard {
     overflow: hidden;
     background-image:url(../images/diamonds.jpg);
-    background-color:white;
+    background-color:black;
     background-repeat:repeat;
     background-position:center center;
     background-size:40rem;
@@ -131,7 +131,7 @@ h1 {
     text-align:center;
     line-height:3.5rem;
     color:#F2F5A9;
-    text-shadow: 4px 4px black;
+    text-shadow: 3px 3px black;
     background-color: rgba(213, 195, 237, .4);
 } 
 
