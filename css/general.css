@@ -214,15 +214,7 @@ figcaption {
 }
 
 .bucket2 {
-    margin: 0 0 1.5rem;
-    padding: 0;
-    overflow: hidden;
-    list-style: none;
-  
-}
-
-.bucket2 li figcaption{
-    margin: 0 0 1rem;
+    margin: 1.5rem 0 1.5rem;
     padding: 0;
     overflow: hidden;
     list-style: none;
@@ -230,9 +222,9 @@ figcaption {
 
 .bucket2 li {
     float: left;
-    width: 50%;
-    margin: 0;
-    padding: 0rem;
+    width: 45%;
+    margin: 0 10% 1.5rem 0;
+    padding: 0;
 }
 
 .bucket2 li:nth-child(even) {
@@ -246,11 +238,12 @@ figcaption {
     background-repeat: no-repeat;
     list-style-type: none;
     text-decoration: none; 
+ font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
     text-align: center;
     color:#614D37;
     margin: 0;
     padding: 100% 0 0; 
-    border: solid .5rem rgba(213, 195, 237, .4);/* height of image ÷ by width = % */
+
 }
 
 .one {
@@ -276,6 +269,15 @@ figcaption {
     background-image: url(../images/ovalring.jpg);
 }
 
+.bucket2 figcaption {
+    text-align:center;/* Visual Aid */
+    text-decoration:none;
+    list-style-type: none;
+    text-align:center;
+    color: #614D37;
+    margin: .5rem 0 0;
+     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
 
 .social {
     overflow: hidden;
@@ -301,11 +303,10 @@ figcaption {
 }
 
 .nav-bottom li {
-    margin: 0;
+    margin: 0 ;
     text-decoration: none;
     list-style: none;
-    text-align: center; 
-    display: inline;
+
 }
 
 .nav-bottom a, 
@@ -314,15 +315,15 @@ figcaption {
     color: white;
     font-size: 1rem;
     line-height:1.5rem; 
+    color: #F2F5A9;
     text-decoration:none;
     list-style-type: none; 
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    text-align: center;
 }
 
 footer {
     margin: 0;
-    padding: 0 25% 12rem;
+    padding: 0 0 12rem;
     background-color:#9999FF; 
     overflow: hidden;
 }
