@@ -105,7 +105,7 @@ article{
 
 .selected {
     background-color: #9999FF;
-}
+    }
 
 .spacer {
     padding: 4.5rem 0 0 0;
@@ -149,7 +149,7 @@ blockquote p {
 
 blockquote span {
     font-weight:bold;
-    color:#A9A9F5;
+    color:#9999FF;
     float: right;
     margin: 1.5rem 0;
 }
@@ -166,7 +166,7 @@ h2 {
     text-align:center;
     color:#614D37;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    font-size:2 rem;
+    font-size:1.75rem;
     line-height:1.5rem;
     font-weight: bold;
     letter-spacing: -.03rem;
