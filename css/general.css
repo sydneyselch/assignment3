@@ -177,14 +177,13 @@ h2 {
     overflow:  hidden;
     padding: 0;
     margin: 0 0 1.5rem;
-
-  
 }
+
 
 .bucket1 figure {
     float: left;
-    width: 25%; /* First and second buckets. 45% x 2 = 90% */ 
-    margin: 0 8% 0 0; /* First and second bucket right margins. 10% x 2 = 20%  */
+    width: 30%; /* First and second buckets. 45% x 2 = 90% */ 
+    margin: 0 3% 0 0; /* First and second bucket right margins. 10% x 2 = 20%  */
     padding: 0;
    
 }
