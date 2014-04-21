@@ -298,14 +298,16 @@ figcaption {
 
 .nav-bottom ul {
     list-style-type:none; 
-    margin: 0;
+    margin: 0 ;
     padding: 0;
 }
 
 .nav-bottom li {
-    margin: 0 ;
+    margin: 0 3rem;
     text-decoration: none;
     list-style: none;
+    text-align: center;
+    display: inline-block;
 
 }
 
@@ -324,6 +326,7 @@ figcaption {
 footer {
     margin: 0;
     padding: 0 0 12rem;
+    text-align: center;
     background-color:#9999FF; 
     overflow: hidden;
 }
