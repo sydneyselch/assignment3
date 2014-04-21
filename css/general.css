@@ -50,7 +50,7 @@ article{
 
 
 .masthead {
-    background-color: #A9A9F5;
+    background-color: #9999FF;
     margin: 0;
     padding: 0;
     position:fixed;
@@ -78,7 +78,7 @@ article{
     margin: 0;
     padding: 0;
     list-style: none; 
-    background-color:#CECEF6;
+    background-color:#C2C2FF;
     text-align:center;
     overflow: hidden;
  
@@ -104,7 +104,7 @@ article{
 }
 
 .selected {
-    background-color: #A9A9F5;
+    background-color: #9999FF;
     color:#F2F5A9;
     overflow: hidden; 
 }
@@ -127,12 +127,12 @@ h1 {
     font-family: 'Playfair Display SC', "Times New Roman", serif;
     margin:1.5rem auto 1.5rem;
     padding: .5rem 2%;
-    font-size: 3rem; 
+    font-size: 3.25rem; 
     text-align:center;
     line-height:3.5rem;
     color:#F2F5A9;
     text-shadow: 3px 3px black;
-    background-color: rgba(213, 195, 237, .4);
+    background-color: rgba(153, 153, 255, .4);
 } 
 
 
@@ -174,29 +174,26 @@ h2 {
     letter-spacing:-.1rem;  
 }
 
-.billboard2 {
-    overflow: hidden;
-    background-image:url(/images/diamonds.jpg);
-    background-color:black;
-    background-repeat:no-repeat;
-    background-position:center center;
-    background-size:40rem
-}
 
 .bucket1 {
     overflow:  hidden;
-    padding: 0 ;
+    padding: 0;
+    margin: 0 0 1.5rem;
+    background-color:  rgba(153, 153, 255, .4);
 }
 
 .bucket1 figure {
     float: left;
-    width: 25%; /* First and second buckets. 45% x 2 = 90% */ 
-    margin: 0 8% 0 0; /* First and second bucket right margins. 10% x 2 = 20%  */
-    padding: 1rem 0;
+    width: 33.3%; /* First and second buckets. 45% x 2 = 90% */ 
+    margin: 0; /* First and second bucket right margins. 10% x 2 = 20%  */
+    padding: 0;
+    border: solid .5rem rgba(153, 153, 255, .4);
 }
 
 .bucket1 figure:nth-child(3) {/* every even numbered <figure> has no margin */
-    margin-right: 0;  
+    margin-right: 0;
+
+    
 }
 
 .bucket1 figcaption {
@@ -205,18 +202,28 @@ h2 {
     text-decoration: none;/* Visual Aid */
     color: #614D37;
     margin: .5rem 0 0;
-     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
 
 figcaption {
     list-style-type:none;
     text-decoration: none;/* Visual Aid */
     color: #614D37;
-    margin: .5rem 0 0;
+    margin: 0 0;
      font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
+
 .bucket2 {
-    margin: 1.5rem 0 1.5rem;
+    margin: 0 0 1.5rem;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    background-color:rgba(153, 153, 255, .4);
+  
+}
+
+.bucket2 li figcaption{
+    margin: 0 0 1rem;
     padding: 0;
     overflow: hidden;
     list-style: none;
@@ -224,9 +231,9 @@ figcaption {
 
 .bucket2 li {
     float: left;
-    width: 45%;
-    margin: 0 10% 1.5rem 0;
-    padding: 0;
+    width: 50%;
+    margin: 0;
+    padding: 0rem;
 }
 
 .bucket2 li:nth-child(even) {
@@ -240,11 +247,11 @@ figcaption {
     background-repeat: no-repeat;
     list-style-type: none;
     text-decoration: none; 
- font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
     text-align: center;
     color:#614D37;
     margin: 0;
-    padding: 100% 0 0; /* height of image ÷ by width = % */
+    padding: 100% 0 0; 
+    border: solid .5rem rgba(213, 195, 237, .4);/* height of image ÷ by width = % */
 }
 
 .one {
@@ -270,20 +277,10 @@ figcaption {
     background-image: url(../images/ovalring.jpg);
 }
 
-.bucket2 figcaption {
-    text-align:center;/* Visual Aid */
-    text-decoration:none;
-    list-style-type: none;
-    text-align:center;
-    color: #614D37;
-    margin: .5rem 0 0;
-     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-}
-
 
 .social {
     overflow: hidden;
-    background-color: #CECEF6; /* Visual Aid */
+    background-color: #C2C2FF; /* Visual Aid */
     padding: 1.5rem 5%;
 }
 
@@ -308,15 +305,15 @@ figcaption {
 .nav-bottom a:link,
 .nav-bottom a:visited {
     color: white;
-    font-size: .875rem;
-    line-height:1rem; 
+    font-size: 1rem;
+    line-height:1.5rem; 
     text-decoration:none;
     list-style-type: none; 
 }
 
 footer {
     margin:0;
-    background-color:#A9A9F5; 
+    background-color:#9999FF; 
     overflow: hidden; 
     height:100%;
 }
