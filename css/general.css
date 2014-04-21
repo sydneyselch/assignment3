@@ -54,8 +54,6 @@ article{
     margin: 0;
     padding: 0;
     position:fixed;
-    top: 0;
-    left: 0;
     align-content: center;
     overflow: hidden;
     width: 100%;
@@ -126,11 +124,10 @@ article{
 }
 
 h1 {
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-family: 'Playfair Display SC', "Times New Roman", serif;
     margin:1.5rem auto 1.5rem;
     padding: .5rem 2%;
     font-size: 3rem; 
-    letter-spacing:-.1rem;
     text-align:center;
     line-height:3.5rem;
     color:#F2F5A9;
@@ -141,13 +138,13 @@ h1 {
 
 blockquote {
     margin: 1rem 0 1rem;
-    padding: 0 5% 0 5% ;
+    padding: 0 5% 0;
     overflow:hidden;
 }
 
 blockquote p {
     font-size:1.75rem;
-    line-height:2rem;
+    line-height:2.5rem;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
 
@@ -207,8 +204,17 @@ h2 {
     list-style-type:none;
     text-decoration: none;/* Visual Aid */
     color: #614D37;
+    margin: .5rem 0 0;
+     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
 
+figcaption {
+    list-style-type:none;
+    text-decoration: none;/* Visual Aid */
+    color: #614D37;
+    margin: .5rem 0 0;
+     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
 .bucket2 {
     margin: 1.5rem 0 1.5rem;
     padding: 0;
@@ -237,7 +243,7 @@ h2 {
  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
     text-align: center;
     color:#614D37;
-    margin: 1.5rem 0 0;
+    margin: 0;
     padding: 100% 0 0; /* height of image ÷ by width = % */
 }
 
@@ -268,6 +274,10 @@ h2 {
     text-align:center;/* Visual Aid */
     text-decoration:none;
     list-style-type: none;
+    text-align:center;
+    color: #614D37;
+    margin: .5rem 0 0;
+     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
 
 
